@@ -16,8 +16,11 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
 		
+<<<<<<< HEAD
 		
 		
+=======
+>>>>>>> 7778c37fa75c41459507aca1f6d8203bed72e230
 		
         app.receivedEvent('deviceready');
     },
