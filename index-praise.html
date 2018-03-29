@@ -45,7 +45,27 @@
     var day = Math.floor(diff / oneDay);
     console.log('Day of year: ' + day);
 	alert('ವರ್ಷದ  '+ day +' ನೇ ದಿನದ  ಸ್ತೋತ್ರಗಳು ');
-	 var html   =  day + '.html';
+	if (day > 50 && day < 100 ){
+	day = day - 50; 
+	} else if (day >= 100 && day < 150){
+	day = day - 100;
+	}
+	else if (day >= 150 && day < 200){
+	day = day - 150;
+	}
+	else if (day >= 200 && day < 250){
+	day = day - 200;
+	}
+	else if (day >= 250 && day < 300){
+	day = day - 250;
+	}
+	else if (day >= 300 && day < 350){
+	day = day - 300;
+	}
+	else if (day >= 350){
+	day = day - 350;
+	}
+	 var html   =  'praises/' + day + '.html';
      window.open (html,'_self',false);
 	}
     </script>
