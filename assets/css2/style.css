@@ -682,7 +682,7 @@ textarea.normal {
 .drawer-header {
 	position: relative;
     height: 140px;
-	background: url(../img/user-bg.jpg) center / cover;
+	background: url(../img/slide-bg.jpg) center / cover;
 }
 .drawer-header img {
 	width: 48px;
