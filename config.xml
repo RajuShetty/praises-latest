@@ -45,9 +45,10 @@
   <preference name="disable-cursor" value="false"/>	
 
    
+   <preference name="permissions" value="none"/>
    
-	 <gap:plugin name="cordova-plugin-admobpro" source="npm" />
 	 <framework src="com.google.android.gms:play-services-ads:+" />
+	 <gap:plugin name="cordova-plugin-admobpro" source="npm" />
   
     <!-- You can comment out features you aren't using -->
 	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
