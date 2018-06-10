@@ -23,7 +23,7 @@
 	<gap:plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" />
 <!-- Requires cli-6.4.0 but we recommend using the latest version. -->
 <preference name="phonegap-version" value="cli-8.0.0" />
-<preference name='pgb-builder-version' value='2' />
+<preference name='pgb-builder-version' value='1' />
 	<!-- one signal push End -->
   
   <preference name="DisallowOverscroll" value="true"/>
@@ -46,9 +46,8 @@
 
    
    <preference name="permissions" value="none"/>
-    <config-file target="AndroidManifest.xml" parent="/manifest/application">
-        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
-    </config-file>
+   
+	 
 	 <gap:plugin name="cordova-plugin-admobpro" source="npm" />
   
     <!-- You can comment out features you aren't using -->
