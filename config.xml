@@ -3,15 +3,15 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.mannaministry1000praises.app"
-        version   = "1.6"
-		android-versionCode="10006">
+        id        = "org.christianconfessionskannada.app"
+        version   = "1"
+		android-versionCode="10000">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
-    <name>Christian confessions kannada</name>
+    <name>kannada Christian confessions </name>
 
     <description>
-        1000 Praises, by Manna Ministry
+         by Manna Ministry
     </description>
 
     <author href="http://mannaministry.in/" email="Rajushetty.b@gmail.com">
@@ -20,7 +20,7 @@
 <content src="index.html"/>
   
   <!-- one signal push -->
-	<gap:plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" />
+	<gap:plugin name="onesignal-cordova-plugin" spec="^2.4.1" source="npm" />
 <!-- Requires cli-6.4.0 but we recommend using the latest version. -->
 <preference name="phonegap-version" value="cli-8.0.0" />
 
